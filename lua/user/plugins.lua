@@ -68,6 +68,7 @@ return packer.startup(function(use)
   use { "fedepujol/move.nvim" }
 
 
+
   -- Colorschemes
   use({ "folke/tokyonight.nvim", commit = "8223c970677e4d88c9b6b6d81bda23daf11062bb" })
   use("lunarvim/darkplus.nvim")
@@ -75,6 +76,11 @@ return packer.startup(function(use)
   use("navarasu/onedark.nvim")
   use({ 'projekt0n/github-nvim-theme' })
   use({ 'NLKNguyen/papercolor-theme' })
+  use({ 'gruvbox-community/gruvbox' })
+  -- Transparent background
+  use({ 'xiyaowong/nvim-transparent'})
+
+  
 
 
   -- cmp plugins
